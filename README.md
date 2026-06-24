@@ -110,8 +110,6 @@ La aplicación está disponible públicamente en Hugging Face Spaces:
 
 🔗 **[https://huggingface.co/spaces/GaboRTX/neurooncolog-rag](https://huggingface.co/spaces/GaboRTX/neurooncolog-rag)**
 
-*(Actualizá este link con el nombre exacto de tu Space una vez que lo crees)*
-
 ---
 
 ## Estructura del proyecto
@@ -139,7 +137,7 @@ La carpeta `chroma_db/` (base vectorial generada) y el archivo `.env` (variables
 
 ---
 
-## Instalación local
+## Instalacion local
 
 ```bash
 # 1. Clonar el repositorio
