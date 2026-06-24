@@ -1,0 +1,27 @@
+# Variables de entorno
+.env
+
+# Base vectorial generada localmente
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
