@@ -21,7 +21,7 @@ NeuroOnco RAG implementa una arquitectura **RAG (Retrieval-Augmented Generation)
 1. **Carga de documentos.** Los PDFs de las guías clínicas se procesan y dividen en fragmentos de texto mediante `RecursiveCharacterTextSplitter`.
 2. **Vectorización semántica.** Cada fragmento se convierte en un embedding usando el modelo `paraphrase-multilingual-MiniLM-L12-v2`, que soporta español e inglés.
 3. **Base vectorial.** Los embeddings se almacenan en ChromaDB para búsqueda semántica eficiente.
-4. **Retrieval con MMR.** Ante cada consulta, se recuperan los fragmentos más relevantes y diversos usando Maximal Marginal Relevance (k=6, fetch_k=12, λ=0.6).
+4. **Retrieval con MMR.** Ante cada consulta, se recuperan los fragmentos más relevantes y diversos usando Maximal Marginal Relevance.
 5. **Generación de respuesta.** El modelo `Llama 3.3 70B` (vía Groq) sintetiza una respuesta fundamentada exclusivamente en los fragmentos recuperados, citando fuente y página.
 
 ```
