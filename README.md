@@ -57,7 +57,7 @@ Cada respuesta incluye trazabilidad: fuente (nombre del documento) y página de 
 
 ## Documentos de trabajo
 
-El sistema trabaja sobre un corpus de **6 guías clínicas y documentos de consenso** en español (o bilingüe), todos open access:
+El sistema trabaja sobre un corpus de **8 guías clínicas y documentos de consenso** en español (o bilingüe), todos open access:
 
 | # | Documento | Institución | Año |
 |---|-----------|-------------|-----|
@@ -67,6 +67,8 @@ El sistema trabaja sobre un corpus de **6 guías clínicas y documentos de conse
 | 4 | Primera guía de consenso mexicana para gliomas de bajo grado IDH-mutado | Academia Mexicana de Neurología | 2025 |
 | 5 | Informe SEOM de evaluación del vorasidenib (inhibidor IDH) | SEOM | 2024 |
 | 6 | Perspectivas para el abordaje integral del glioma de bajo grado con mutación IDH | GEINO + SEN + SENEC + SEOR + SEAP-IAP | 2025 |
+| 7 | Guía de Tumores del Sistema Nervioso Central | AAOC (Asociación Argentina de Oncología Clínica) | 2026 |
+| 8 | Vorasidenib in IDH1- or IDH2-Mutant Low-Grade Glioma (INDIGO trial) | Mellinghoff et al. — New England Journal of Medicine | 2023 |
 
 Los documentos cubren: clasificación OMS 2021, diagnóstico molecular (IDH1/2, 1p/19q, ATRX, CDKN2A/B, MGMT), cirugía (resección máxima segura), radioterapia (RT), quimioterapia (PCV, temozolomida), inhibidores IDH (vorasidenib), criterios RANO, seguimiento por imágenes y cuidados de soporte.
 
@@ -130,7 +132,9 @@ proyecto_final_rag_GM/
     ├── 03_seom_geino_gliomas_alto_grado_2022.pdf
     ├── 04_guia_mexicana_gliomas_idh_mutado_2025.pdf
     ├── 05_seom_informe_vorasidenib_idh_2024.pdf
-    └── 06_consenso_multidisciplinar_idh_espana_2025.pdf
+    ├── 06_consenso_multidisciplinar_idh_espana_2025.pdf
+    ├── 07_Tumores SNC, 2026; publicada AAOC.pdf
+    └── 08_Vorasidenib in IDH1- or IDH2-Mutant Low-Grade Glioma 2023.pdf
 ```
 
 La carpeta `chroma_db/` (base vectorial generada) y el archivo `.env` (variables de entorno con la API key de Groq) **no se incluyen en el repositorio**. Se generan localmente o se configuran como secrets en Hugging Face.
